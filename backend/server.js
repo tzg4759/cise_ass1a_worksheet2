@@ -4,7 +4,7 @@ const articles = require("./dummydata/articles");
 const server = express();
 
 server.get('/', (req,res) => {
-    res.send("API is running")
+    res.send("API is running Brad Jackson")
 })
 
 server.get('/api/articles', (req,res) => {
